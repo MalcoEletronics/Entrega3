@@ -1,1 +1,64 @@
-
+<html>
+    <head>
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "pagina_inicial.css" />
+        <title>
+            Página Inicial
+        </title>
+    </head>
+    <body>
+        <div class="paginaInicial">
+            <div class="top">
+                <div class="fotoPerfil">
+                    <img src="foto perfil.jpg" class="imagemPerfil"/>
+                </div>
+                <div class="titulo">
+                    <br class="textoTitulo">Página inicial</br>
+                </div>
+                <div class="estrela">
+                </div>                                
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="esquerda">
+                        <div class="identificacao">
+                        </div>                      
+                    </div>     
+                    <div class="direita">
+                        <div class="quem">
+                            <div class="nomedata">
+                            </div>  
+                            <div class="seta">
+                            </div>                                                     
+                        </div>     
+                        <div class="texto">
+                        </div>  
+                        <div class="imagem">
+                        </div>  
+                        <div class="rodape">
+                            <div class="comentarios">
+                            </div> 
+                            <div class="retweets">
+                            </div> 
+                            <div class="loves">
+                            </div> 
+                            <div class="share">
+                            </div>                                                                                                             
+                        </div>                                                                                           
+                    </div>                                
+                </div>            
+            </div>
+            <div class="menu">
+                <div class="casa">
+                </div>
+                <div class="busca">
+                </div>
+                <div class="notificacoes">
+                </div>
+                <div class="mensagens">
+                </div>                                                            
+            </div>
+        </div>
+    </body>
+</html>
