@@ -4,6 +4,10 @@
     height: 49px;
 }
 
+p {
+    margin: 0 0 0 0;
+}
+
 /*Classe de uma <br> usada no texto do título*/
 .textoTitulo{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
@@ -42,11 +46,14 @@
 .posts{
     border: 1px solid black;
     margin: 5 5 5 5;
+    display: flex;
+    flex-direction: column;
 }
 .post{
     border: 1px solid black;
     margin: 5 5 5 5;
-    display: row;
+    display: flex;
+    flex-direction: row;
 }
 .esquerda{
     border: 1px solid black;
@@ -85,8 +92,18 @@
     border: 1px solid black;
     margin: 5 5 5 5;
     flex-grow: 1;
+    display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }     
+
+.svgSeta{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+
 .texto{
     border: 1px solid black;
     margin: 5 5 5 5;
@@ -159,20 +176,40 @@
 .menu{
     border: 1px solid black;
     margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
 }
 .casa{
     border: 1px solid black;
     margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
 }
 .busca{
     border: 1px solid black;
     margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
 }
 .notificacoes{
     border: 1px solid black;
     margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+
 }
 .mensagens{
     border: 1px solid black;
     margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+
 }
