@@ -1,0 +1,178 @@
+/*Classe de uma <img> usada na imagem do perfil*/
+.imagemPerfil{
+    width: 49px;
+    height: 49px;
+}
+
+/*Classe de uma <br> usada no texto do título*/
+.textoTitulo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-stretch:100%;
+    font-style:normal;
+    font-variant-caps:normal;
+    font-variant-east-asian:normal;
+    font-variant-ligatures:normal;
+    font-variant-numeric:normal;
+    font-weight:800;
+    color:white;
+    text-align: center;
+}
+
+/*----------CLASSES DE DIVS----------*/
+.paginaInicial{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    background-color: rgb(56, 68, 77);
+}
+.top{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+}
+.fotoPerfil{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    border:50%;
+}
+.titulo{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+
+.posts{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.post{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: row;
+}
+.esquerda{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.identificacao{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    border:50%;
+}
+.direita{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.quem{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+}
+.nomedata{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: inline;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-direction: row;  
+    flex-grow: 1;
+
+}   
+.seta{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    flex-grow: 1;
+    justify-content: flex-end;
+}     
+.texto{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.imagem{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.rodape{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+}
+.comentarios{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    fill: white;
+    border: 1px solid white;
+    flex-grow:1;
+    justify-content: flex-start;
+
+}
+.retweets{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    fill: white;
+    border: 1px solid white;
+    flex-grow:1;
+    justify-content: flex-start;
+
+}
+.loves{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    fill: white;
+    border: 1px solid white;
+    flex-grow:1;
+    justify-content: flex-start;
+
+}
+.share{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    fill: white;
+    border: 1px solid white;
+    flex-grow:1;
+    justify-content: flex-start;
+}
+.menu{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.casa{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.busca{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.notificacoes{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
+.mensagens{
+    border: 1px solid black;
+    margin: 5 5 5 5;
+}
